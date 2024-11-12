@@ -1,8 +1,8 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.122.0/build/three.module.js';
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.122.0/examples/jsm/controls/OrbitControls.js';
-import { createScene, createCamera } from '../scene.js';
-import { loadModel } from '../modelLoader.js';
-import { createWater } from '../water.js';
+import { createScene, createCamera } from './scene.js';
+import { loadModel } from './modelLoader.js';
+import { createWater } from './water.js';
 
 const scene = createScene();
 const camera = createCamera();
